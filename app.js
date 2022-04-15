@@ -40,11 +40,7 @@ app.post("/api/test", (req, res) => {
   // };
   // options.push(test)
   //res.send(options);
-  // const user = {
-  //   id: 1, 
-  //   username: 'brad',
-  //   email: 'brad@gmail.com'
-  // }
+ 
 
   jwt.sign({options}, 'secretkey', { expiresIn: '30s' }, (err, token) => {
     res.json({
