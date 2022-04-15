@@ -1,0 +1,24 @@
+get http://localhost:3000/api
+
+###
+
+get http://localhost:3000/api/test/2
+
+###
+
+POST  http://localhost:3000/api/test http/1.1
+
+Content-Type: application/json
+
+###
+
+
+POST  http://localhost:3000/api/body http/1.1
+
+Content-Type: application/json
+
+Authorization: 
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcHRpb25zIjpbeyJpZCI6MSwibmFtZSI6IlRhYmFzc3VtIn0seyJpZCI6MiwibmFtZSI6IlNhbXJ1ZGRoaSJ9XSwiaWF0IjoxNjQ5OTcyMzU2LCJleHAiOjE2NDk5NzIzODZ9.8FKyqPbFz-0HuyWHOk5x10tCruDuoruWZNPm4JJy7QE
+
+
+###
